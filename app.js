@@ -118,7 +118,6 @@ function initButtons() {
     nav++;
    load();
   });
-  console.log(document.getElementById('nextButton'))
 
   document.getElementById('backButton').addEventListener('click', () => {
     nav--;
